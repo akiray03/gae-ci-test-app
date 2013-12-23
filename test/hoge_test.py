@@ -16,12 +16,12 @@ class DemoTestCase(unittest2.TestCase):
     self.testbed.init_datastore_v3_stub()
     self.testbed.init_memcache_stub()
 
-    def tearDown(self):
-        self.testbed.deactivate()
+  def tearDown(self):
+    self.testbed.deactivate()
 
-    def testInsertEntity(self):
-        Todo().put()
-        self.assertEqual(1, len(Todo.all().fetch(2)))
+  def testInsertEntity(self):
+    Todo().put()
+    self.assertEqual(1, len(Todo.query().fetch(2)))
 
 if __name__ == '__main__':
     unittest2.main()
