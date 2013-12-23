@@ -3,7 +3,7 @@ gae-ci-test-app
 
 [![Build Status](https://drone.io/github.com/akiray03/gae-ci-test-app/status.png)](https://drone.io/github.com/akiray03/gae-ci-test-app/latest)
 
-![Build Status](https://www.codeship.io/projects/7c347860-4e10-0131-3cc0-3a304a73959b/status)
+[![Build Status](https://www.codeship.io/projects/7c347860-4e10-0131-3cc0-3a304a73959b/status)](https://www.codeship.io/projects/11307)
 
 test (js)
 ---------
